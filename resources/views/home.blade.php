@@ -13,8 +13,8 @@
         <div class="card-body">
             <h3>Selamat Datang di Portal Universitas Bengkulu</h3>
           <p class="card-text">klik link berikut untuk menambah daftar Fakultas dan Program Studi</p>
-          <a href="{{ route('faculty.create') }}" class="btn btn-primary">Tambah Daftar Fakultas</a><br>
-          <a href="{{ route('study_programs.create') }}" class="btn btn-primary mt-3">Tambah Daftar Program Studi</a>
+          <a href="{{ route('faculty.create') }}" class="btn btn-danger">Tambah Daftar Fakultas</a><br>
+          <a href="{{ route('study_programs.create') }}" class="btn btn-danger mt-3">Tambah Daftar Program Studi</a>
         </div>
     </div>
 </body>
