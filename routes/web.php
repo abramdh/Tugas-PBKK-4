@@ -22,3 +22,10 @@ Route::get('/', function () {
 Route::resource('study_programs', Study_ProgramController::class);
 Route::resource('faculty', FacultyController::class);
 
+Route::get('/halaman-a', function () {
+    return view('contoh.halamana');
+});
+
+Route::get('/halaman-b', function () {
+    return view('contoh.halamanb');
+});
