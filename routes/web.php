@@ -29,3 +29,6 @@ Route::get('/halaman-a', function () {
 Route::get('/halaman-b', function () {
     return view('contoh.halamanb');
 });
+Route::get('/halaman-c', function () {
+    return view('contoh.halamanc');
+});
